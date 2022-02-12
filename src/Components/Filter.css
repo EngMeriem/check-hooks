@@ -1,0 +1,38 @@
+.header{
+	position:fixed;
+	top:0;
+	left:0;
+	right: 0;
+	z-index: 1000;
+	background-color:rgb(37, 37, 37);
+	display: flex;
+	padding: 1rem;
+	justify-content:space-between;
+	
+}
+
+.content{
+	display: flex;
+}
+
+.app-title{
+    color: rgb(255, 187, 60);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.form {
+	padding-right: 20px;
+}
+
+.control{
+	background-color: transparent;
+	border:2px solid, #22254b;
+	border-radius: 50px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 1.2rem;
+	padding: 0.7rem 1.5rem;
+}
+
